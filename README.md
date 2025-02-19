@@ -3,7 +3,7 @@
 Este projeto é parte do trabalho de conclusão do curso da USP (Universidade de São Paulo), disponibilizado na plataforma https://www.coursera.org/
 
 ### Objetivo:
-Basicamente, a tarefa é implementar corretamente as seguintes funções: 
+Basicamente, a tarefa é implementar corretamente as seguintes funções: <br>
 1 - compara_assinatura(as_a, as_b) <br>
 2 - calcula_assinatura(texto) <br>
 3 - avalia_textos(textos, ass_cp) <br>
