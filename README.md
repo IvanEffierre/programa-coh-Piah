@@ -1,87 +1,75 @@
-## Tarefa de programação: Programa completo - Similaridades entre textos - Caso COH-PIAH
-### Apresentação:
-Este projeto é parte do trabalho de conclusão do curso da USP (Universidade de São Paulo), disponibilizado na plataforma https://www.coursera.org/
+# 🧬 Análise Textual com Python – Caso COH-PIAH (USP/Coursera)
 
-### Objetivo:
-Basicamente, a tarefa é implementar corretamente as seguintes funções: <br>
-1 - compara_assinatura(as_a, as_b) <br>
-2 - calcula_assinatura(texto) <br>
-3 - avalia_textos(textos, ass_cp) <br>
+## 🎯 Objetivo  
+Este projeto foi desenvolvido como **trabalho de conclusão do curso "Introdução à Ciência da Computação com Python"**, promovido pela **Universidade de São Paulo (USP)** na plataforma **Coursera**.
 
-### Funções de suporte
-Para facilitar o trabalho, foi fornecido um esqueleto do programa completo como base, de uso obrigatório. As funções definidas nele devem ser utilizadas no seu programa; algumas já estão implementadas, outras devem ser implementadas pelo aluno (conforme indicado pelo comentário "IMPLEMENTAR, disposto no código-fonte). Sinta-se livre para criar funções adicionais, caso necessário. <br>
+O desafio consiste em implementar um programa capaz de identificar similaridades linguísticas entre textos, simulando a detecção de plágio através da análise da assinatura textual de documentos.
 
-### Comportamento do Jogo:
-As funcionalidades descritas na seção "Objetivo" foram implementadas via código.<br>
-Sendo assim,  o usuário tem que informar textos para que o programa faça uma avaliação e retorne qual dos textos disponibilizados foi infectado pelo "vírus" Coh-Piah, resultando em um possível plágio.
+As principais funcionalidades são:
 
-### Texto descritivo conforme publicado pelo Autor do Desafio
-Os Traços Linguísticos que seu programa deve utilizar são calculados da seguinte forma:<br>
-Tamanho médio de palavra é a soma dos tamanhos das palavras dividida pelo número total de palavras.
+1. Calcular a assinatura linguística de um texto.  
+2. Comparar assinaturas de textos com uma assinatura referência.  
+3. Avaliar qual texto entre vários é o mais similar ao infectado pelo “vírus” COH-PIAH.
 
-Relação Type-Token é o número de palavras diferentes dividido pelo número total de palavras. Por exemplo, na frase "O gato caçava o rato", temos 5 palavras no total (o, gato, caçava, o, rato) mas somente 4 diferentes (o, gato, caçava, rato). Nessa frase, a relação Type-Token vale 
-4/5 = 0.8
+---
 
-Razão Hapax Legomana é o número de palavras que aparecem uma única vez dividido pelo total de palavras. Por exemplo, na frase "O gato caçava o rato", temos 5 palavras no total (o, gato, caçava, o, rato) mas somente 3 que aparecem só uma vez (gato, caçava, rato). Nessa frase, a relação Hapax Legomana vale 
-3/5 = 0.6 <br><br>
-Tamanho médio de sentença é a soma dos números de caracteres em todas as sentenças dividida pelo número de sentenças (os caracteres que separam uma sentença da outra não devem ser contabilizados como parte da sentença).<br><br>
+## 🧪 Métodos Utilizados  
+O programa utiliza os seguintes traços linguísticos para compor a assinatura de um texto:
 
-Complexidade de sentença é o número total de frases divido pelo número de sentenças.<br><br>
+- **Tamanho médio de palavra**  
+- **Relação Type-Token** (palavras diferentes / total de palavras)  
+- **Razão Hapax Legomana** (palavras únicas / total de palavras)  
+- **Tamanho médio de sentença**  
+- **Complexidade de sentença** (número de frases por sentença)  
+- **Tamanho médio de frase**
 
-Tamanho médio de frase é a soma do número de caracteres em cada frase dividida pelo número de frases no texto  (os caracteres que separam uma frase da outra não devem ser contabilizados como parte da frase).<br><br>
+A comparação entre assinaturas é feita com base na média das diferenças absolutas entre os traços.
 
-Após calcular esses valores para cada texto, você deve compará-los com a assinatura fornecida para os infectados por COH-PIAH. O grau de similaridade entre dois textos, 
-a e b, é dado pela fórmula:<br>
+---
 
-​S
-a
-b
-=
-∑
-i
-=
-1
-6
-∣
-∣
-f
-i
-,
-a
-−
-f
-i
-,
-b
-∣
-∣
-6
-S 
-ab
-​
- = 
-6
-∑ 
-i=1
-6
-​
- ∣∣f 
-i,a
-​
- −f 
-i,b
-​
- ∣∣
-​
-<br>
+## 🛠️ Código e Execução  
+- A estrutura do código foi fornecida pela USP como esqueleto base.  
+- As funções `compara_assinatura`, `calcula_assinatura` e `avalia_textos` foram implementadas por **Valdivan Ramos**.  
+- Funções auxiliares foram adicionadas conforme necessário, mantendo a modularidade e clareza do código.
 
-### Créditos
-1 - O esqueleto do código-fonte foi disponibilizado pela equipe do curso, mantendo a estrutura original. <br>
-2 - Códigos escritos em linguagem Python por Valdivan Ramos. <br>
+### ⚙️ Como Executar  
+1. Baixe o arquivo `coh_piah.py`  
+2. Execute em um ambiente Python compatível (como IDLE, VSCode, ou Jupyter Notebook)  
+3. Informe os textos conforme solicitado pelo programa
 
-### Considerações Finais
-As empresas e marcas citados aqui, possuem seus créditos. As marcas ou produtos citados possuem direitos reservados aos seus respectivos donos / mantededores. <br>
-USP - (Universidade São Paulo) <br>
-Coursera - (https://www.coursera.org/) <br>
-Este código-fonte, bem como a resolução através da implementação das três funções ( seção "Objetivo"), podem ser apreciados para caráter educacional por parte dos amantes da linguagem Python e ou aqueles que desejem aprmorar, sendo base para quem tiver dificuldade em terminar o referido curso.<br>
-Bom Desenvolvimento! (Good development!). <br>
+---
+
+## 💡 Tecnologias Utilizadas  
+- **Linguagem de Programação Python**  
+- **Programação modular e funcional**  
+- **Manipulação de strings e listas**
+
+---
+
+## 📜 Créditos  
+- **Curso e esqueleto base**: Universidade de São Paulo (USP) / Coursera  
+- **Implementação lógica**: Valdivan F. Ramos
+
+---
+
+## 🧩 Perfil e Propósito Profissional
+
+### 🎓 Autor  
+**Valdivan F. Ramos** – Especialista em Ciência de Dados e Big Data Analytics. Atuação com foco em análise de dados aplicada à educação, desenvolvimento técnico-científico e construção de ferramentas interativas que orientam a tomada de decisão.
+
+---
+
+### 📚 Educação com Propósito  
+> “Ensinar linguagens de programação é mais do que ensinar algoritmos e códigos.  
+> É educar mentes capazes de resolver problemas complexos da realidade, unindo teoria e prática, sem desprezar os valores humanos.  
+> Mas educação e valores só fazem sentido quando estão a serviço da sociedade.”  
+> — Valdivan F. Ramos
+
+---
+
+### 📄 Referência para Currículo Lattes  
+**Título:** Detecção de Autenticidade em Texto com Python.  
+**Tipo de produção técnica:** Desenvolvimento de Software  
+**Ano:** 2025  
+**Descrição:** Código fonte desenvolvido em Python para analisar textos informados por usuários e identificar padrões que indiquem possíveis plágios e práticas de cópia de textos. Código desenvolvido para trabalho de conclusão do curso da Universidade de São Paulo (USP), disponibilizado na plataforma de cursos da Coursera.  
+**Disponível em:** [https://github.com/IvanEffierre/programa-coh-Piah](https://github.com/IvanEffierre/programa-coh-Piah)
