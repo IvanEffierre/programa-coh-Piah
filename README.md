@@ -70,6 +70,6 @@ A comparação entre assinaturas é feita com base na média das diferenças abs
 ### 📄 Referência para Currículo Lattes  
 **Título:** Detecção de Autenticidade em Texto com Python.  
 **Tipo de produção técnica:** Desenvolvimento de Software  
-**Ano:** 2025  
+**Ano:** 2024  
 **Descrição:** Código fonte desenvolvido em Python para analisar textos informados por usuários e identificar padrões que indiquem possíveis plágios e práticas de cópia de textos. Código desenvolvido para trabalho de conclusão do curso da Universidade de São Paulo (USP), disponibilizado na plataforma de cursos da Coursera.  
 **Disponível em:** [https://github.com/IvanEffierre/programa-coh-Piah](https://github.com/IvanEffierre/programa-coh-Piah)
