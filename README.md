@@ -55,9 +55,8 @@ A comparação entre assinaturas é feita com base na média das diferenças abs
 ## 🧩 Perfil e Propósito Profissional
 
 ### 🎓 Autor  
-**Valdivan F. Ramos** – Especialista em Ciência de Dados e Big Data Analytics. Atuação com foco em análise de dados aplicada à educação, desenvolvimento técnico-científico e construção de ferramentas interativas que orientam a tomada de decisão.
+**Valdivan F. Ramos** – 📌Analista de Sistemas Multidisciplinar | Mestrando em Eng. de Sistemas e Produtos | Docência/Pesquisa/Gestão | Eng. de Requisitos/CC | Ciência de Dados/Big Data | Dir. Digital/Compliance/LGPD | Redes/IoT/IIoT. Atuação com foco em análise de dados aplicada à educação, desenvolvimento técnico-científico e construção de ferramentas interativas que orientam a tomada de decisão.
 
----
 
 ### 📚 Educação com Propósito  
 > “Ensinar linguagens de programação é mais do que ensinar algoritmos e códigos.  
